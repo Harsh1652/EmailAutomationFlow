@@ -1,13 +1,10 @@
-import React from "react";
-import EmailAutomationFlow from "./components/EmailAutomationFlow"; // Adjust path as needed
+import React from 'react';
+import EmailAutomationFlow from './components/EmailAutomationFlow';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h1 className="text-center text-2xl font-bold mt-4">Email Automation Flow</h1>
+    <div className="h-screen">
       <EmailAutomationFlow />
     </div>
   );
 }
-
-export default App;
